@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66908017B9D18D22CBD47385 /* Pods_OriginMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A44CE7FA8E9C9D9BDED40E /* Pods_OriginMockTests.framework */; };
+		79B39D82DED1159BBEB7F002 /* Pods_OriginMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B617B03D68002D2A72E06905 /* Pods_OriginMock.framework */; };
+		C2C10C4E80BFED7BE78D05DC /* Pods_OriginMock_OriginMockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE758B3BB83278D674719D4 /* Pods_OriginMock_OriginMockUITests.framework */; };
 		F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1215280D988D0090E163 /* OriginMockApp.swift */; };
 		F4DD1218280D988D0090E163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1217280D988D0090E163 /* ContentView.swift */; };
 		F4DD121A280D98910090E163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD1219280D98910090E163 /* Assets.xcassets */; };
@@ -16,6 +19,12 @@
 		F4DD122C280D98920090E163 /* OriginMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD122B280D98920090E163 /* OriginMockTests.swift */; };
 		F4DD1236280D98920090E163 /* OriginMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1235280D98920090E163 /* OriginMockUITests.swift */; };
 		F4DD1238280D98920090E163 /* OriginMockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1237280D98920090E163 /* OriginMockUITestsLaunchTests.swift */; };
+		F4DD124C280DB37E0090E163 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD124B280DB37E0090E163 /* SplashView.swift */; };
+		F4DD124F280DB80D0090E163 /* ColorAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD124E280DB80D0090E163 /* ColorAsset.xcassets */; };
+		F4DD1253280DB89D0090E163 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1252280DB89D0090E163 /* Color.swift */; };
+		F4DD1257280DBE7B0090E163 /* RoutingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1256280DBE7B0090E163 /* RoutingManager.swift */; };
+		F4DD1259280DBEF00090E163 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1258280DBEF00090E163 /* RoutingView.swift */; };
+		F4DD125C280DBFC10090E163 /* RoutingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD125B280DBFC10090E163 /* RoutingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08B59D8DA9DDA057BE97B993 /* Pods-OriginMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMock.release.xcconfig"; path = "Target Support Files/Pods-OriginMock/Pods-OriginMock.release.xcconfig"; sourceTree = "<group>"; };
+		1EF2E2A500C6F818A7D159AB /* Pods-OriginMockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMockTests.release.xcconfig"; path = "Target Support Files/Pods-OriginMockTests/Pods-OriginMockTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FE758B3BB83278D674719D4 /* Pods_OriginMock_OriginMockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginMock_OriginMockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A44CE7FA8E9C9D9BDED40E /* Pods_OriginMockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginMockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937CA96617CB48E8919FD392 /* Pods-OriginMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMockTests.debug.xcconfig"; path = "Target Support Files/Pods-OriginMockTests/Pods-OriginMockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6ED95045A1782EBCA2B2ED5 /* Pods-OriginMock-OriginMockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMock-OriginMockUITests.debug.xcconfig"; path = "Target Support Files/Pods-OriginMock-OriginMockUITests/Pods-OriginMock-OriginMockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B617B03D68002D2A72E06905 /* Pods_OriginMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38D026D11E8900C7F93334A /* Pods-OriginMock-OriginMockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMock-OriginMockUITests.release.xcconfig"; path = "Target Support Files/Pods-OriginMock-OriginMockUITests/Pods-OriginMock-OriginMockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0548EFD4F6B5A3215457B7D /* Pods-OriginMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMock.debug.xcconfig"; path = "Target Support Files/Pods-OriginMock/Pods-OriginMock.debug.xcconfig"; sourceTree = "<group>"; };
 		F4DD1212280D988D0090E163 /* OriginMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD1215280D988D0090E163 /* OriginMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMockApp.swift; sourceTree = "<group>"; };
 		F4DD1217280D988D0090E163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +66,12 @@
 		F4DD1231280D98920090E163 /* OriginMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD1235280D98920090E163 /* OriginMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMockUITests.swift; sourceTree = "<group>"; };
 		F4DD1237280D98920090E163 /* OriginMockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4DD124B280DB37E0090E163 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F4DD124E280DB80D0090E163 /* ColorAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAsset.xcassets; sourceTree = "<group>"; };
+		F4DD1252280DB89D0090E163 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F4DD1256280DBE7B0090E163 /* RoutingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingManager.swift; sourceTree = "<group>"; };
+		F4DD1258280DBEF00090E163 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
+		F4DD125B280DBFC10090E163 /* RoutingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B39D82DED1159BBEB7F002 /* Pods_OriginMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66908017B9D18D22CBD47385 /* Pods_OriginMockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +95,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C10C4E80BFED7BE78D05DC /* Pods_OriginMock_OriginMockUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39C9B652D2B58D6E43A752F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0548EFD4F6B5A3215457B7D /* Pods-OriginMock.debug.xcconfig */,
+				08B59D8DA9DDA057BE97B993 /* Pods-OriginMock.release.xcconfig */,
+				A6ED95045A1782EBCA2B2ED5 /* Pods-OriginMock-OriginMockUITests.debug.xcconfig */,
+				C38D026D11E8900C7F93334A /* Pods-OriginMock-OriginMockUITests.release.xcconfig */,
+				937CA96617CB48E8919FD392 /* Pods-OriginMockTests.debug.xcconfig */,
+				1EF2E2A500C6F818A7D159AB /* Pods-OriginMockTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66AEA207019947C20BA991C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B617B03D68002D2A72E06905 /* Pods_OriginMock.framework */,
+				2FE758B3BB83278D674719D4 /* Pods_OriginMock_OriginMockUITests.framework */,
+				30A44CE7FA8E9C9D9BDED40E /* Pods_OriginMockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4DD1209280D988C0090E163 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +132,8 @@
 				F4DD122A280D98920090E163 /* OriginMockTests */,
 				F4DD1234280D98920090E163 /* OriginMockUITests */,
 				F4DD1213280D988D0090E163 /* Products */,
+				39C9B652D2B58D6E43A752F9 /* Pods */,
+				66AEA207019947C20BA991C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,9 +150,12 @@
 		F4DD1214280D988D0090E163 /* OriginMock */ = {
 			isa = PBXGroup;
 			children = (
+				F4DD124D280DB4DC0090E163 /* Resources */,
+				F4DD1250280DB8650090E163 /* Utils */,
+				F4DD1255280DBE470090E163 /* Manager */,
+				F4DD1244280DAC130090E163 /* Presentation */,
 				F4DD1215280D988D0090E163 /* OriginMockApp.swift */,
 				F4DD1217280D988D0090E163 /* ContentView.swift */,
-				F4DD1219280D98910090E163 /* Assets.xcassets */,
 				F4DD121E280D98910090E163 /* Persistence.swift */,
 				F4DD1220280D98910090E163 /* OriginMock.xcdatamodeld */,
 				F4DD121B280D98910090E163 /* Preview Content */,
@@ -133,6 +188,105 @@
 			path = OriginMockUITests;
 			sourceTree = "<group>";
 		};
+		F4DD1244280DAC130090E163 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD1245280DAC1E0090E163 /* ViewModels */,
+				F4DD1246280DAC270090E163 /* Views */,
+				F4DD124A280DB34A0090E163 /* Routing */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F4DD1245280DAC1E0090E163 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD125A280DBFA90090E163 /* Routing */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4DD1246280DAC270090E163 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD1247280DB25A0090E163 /* Splash */,
+				F4DD1248280DB2750090E163 /* Onboarding */,
+				F4DD1249280DB2830090E163 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4DD1247280DB25A0090E163 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD124B280DB37E0090E163 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F4DD1248280DB2750090E163 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F4DD1249280DB2830090E163 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F4DD124A280DB34A0090E163 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD1258280DBEF00090E163 /* RoutingView.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		F4DD124D280DB4DC0090E163 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD1219280D98910090E163 /* Assets.xcassets */,
+				F4DD124E280DB80D0090E163 /* ColorAsset.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4DD1250280DB8650090E163 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD1251280DB87E0090E163 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F4DD1251280DB87E0090E163 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD1252280DB89D0090E163 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4DD1255280DBE470090E163 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD1256280DBE7B0090E163 /* RoutingManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F4DD125A280DBFA90090E163 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD125B280DBFC10090E163 /* RoutingViewModel.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD123B280D98920090E163 /* Build configuration list for PBXNativeTarget "OriginMock" */;
 			buildPhases = (
+				1F1FDAA9EB09DFD079BB5D5D /* [CP] Check Pods Manifest.lock */,
 				F4DD120E280D988D0090E163 /* Sources */,
 				F4DD120F280D988D0090E163 /* Frameworks */,
 				F4DD1210280D988D0090E163 /* Resources */,
@@ -157,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD123E280D98920090E163 /* Build configuration list for PBXNativeTarget "OriginMockTests" */;
 			buildPhases = (
+				2F25F6FACB96E1BCE720DE72 /* [CP] Check Pods Manifest.lock */,
 				F4DD1223280D98910090E163 /* Sources */,
 				F4DD1224280D98910090E163 /* Frameworks */,
 				F4DD1225280D98910090E163 /* Resources */,
@@ -175,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD1241280D98920090E163 /* Build configuration list for PBXNativeTarget "OriginMockUITests" */;
 			buildPhases = (
+				BF4FC717FA4B2A4343CB1EE5 /* [CP] Check Pods Manifest.lock */,
 				F4DD122D280D98920090E163 /* Sources */,
 				F4DD122E280D98920090E163 /* Frameworks */,
 				F4DD122F280D98920090E163 /* Resources */,
@@ -237,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DD124F280DB80D0090E163 /* ColorAsset.xcassets in Resources */,
 				F4DD121D280D98910090E163 /* Preview Assets.xcassets in Resources */,
 				F4DD121A280D98910090E163 /* Assets.xcassets in Resources */,
 			);
@@ -258,15 +416,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F1FDAA9EB09DFD079BB5D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OriginMock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F25F6FACB96E1BCE720DE72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OriginMockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4FC717FA4B2A4343CB1EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OriginMock-OriginMockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4DD120E280D988D0090E163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DD1257280DBE7B0090E163 /* RoutingManager.swift in Sources */,
 				F4DD121F280D98910090E163 /* Persistence.swift in Sources */,
 				F4DD1222280D98910090E163 /* OriginMock.xcdatamodeld in Sources */,
 				F4DD1218280D988D0090E163 /* ContentView.swift in Sources */,
+				F4DD125C280DBFC10090E163 /* RoutingViewModel.swift in Sources */,
 				F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */,
+				F4DD124C280DB37E0090E163 /* SplashView.swift in Sources */,
+				F4DD1253280DB89D0090E163 /* Color.swift in Sources */,
+				F4DD1259280DBEF00090E163 /* RoutingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +653,7 @@
 		};
 		F4DD123C280D98920090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0548EFD4F6B5A3215457B7D /* Pods-OriginMock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +683,7 @@
 		};
 		F4DD123D280D98920090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B59D8DA9DDA057BE97B993 /* Pods-OriginMock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +713,7 @@
 		};
 		F4DD123F280D98920090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937CA96617CB48E8919FD392 /* Pods-OriginMockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +739,7 @@
 		};
 		F4DD1240280D98920090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF2E2A500C6F818A7D159AB /* Pods-OriginMockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +765,7 @@
 		};
 		F4DD1242280D98920090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6ED95045A1782EBCA2B2ED5 /* Pods-OriginMock-OriginMockUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +789,7 @@
 		};
 		F4DD1243280D98920090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38D026D11E8900C7F93334A /* Pods-OriginMock-OriginMockUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

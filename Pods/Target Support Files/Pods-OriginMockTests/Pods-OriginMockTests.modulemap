@@ -1,0 +1,6 @@
+framework module Pods_OriginMockTests {
+  umbrella header "Pods-OriginMockTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
