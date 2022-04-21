@@ -20,8 +20,8 @@ public class RoutingManager {
     public enum RoutingState {
         // スプラッシュ
         case splash
-//        // ホーム
-//        case home
+        // ホーム
+        case home
 //        /// ログイン
 //        ///
 //        /// - next: 指定のある場合は、ログイン後のルーティング

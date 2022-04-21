@@ -10,6 +10,16 @@
 		66908017B9D18D22CBD47385 /* Pods_OriginMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A44CE7FA8E9C9D9BDED40E /* Pods_OriginMockTests.framework */; };
 		79B39D82DED1159BBEB7F002 /* Pods_OriginMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B617B03D68002D2A72E06905 /* Pods_OriginMock.framework */; };
 		C2C10C4E80BFED7BE78D05DC /* Pods_OriginMock_OriginMockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE758B3BB83278D674719D4 /* Pods_OriginMock_OriginMockUITests.framework */; };
+		F4B438CE2811AC550011B52C /* HomeStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438CD2811AC550011B52C /* HomeStatusView.swift */; };
+		F4B438D12811ACA00011B52C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438D02811ACA00011B52C /* HomeViewModel.swift */; };
+		F4B438D42811ADFA0011B52C /* ViewControllerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438D32811ADFA0011B52C /* ViewControllerHolder.swift */; };
+		F4B438D72811AE920011B52C /* MyPageDissmissNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438D62811AE920011B52C /* MyPageDissmissNotification.swift */; };
+		F4B438D92811AF1A0011B52C /* AsyncImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438D82811AF1A0011B52C /* AsyncImageDownloader.swift */; };
+		F4B438DF2811B1D80011B52C /* MyPageTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438DE2811B1D80011B52C /* MyPageTopView.swift */; };
+		F4B438E22811B2C00011B52C /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438E12811B2C00011B52C /* TabBarViewModel.swift */; };
+		F4B438E52811B41F0011B52C /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438E42811B41F0011B52C /* SplashViewModel.swift */; };
+		F4B438EB2811B5540011B52C /* TopRoutingUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438EA2811B5540011B52C /* TopRoutingUseCaseImpl.swift */; };
+		F4B438EE2811B7680011B52C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438ED2811B7680011B52C /* RootView.swift */; };
 		F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1215280D988D0090E163 /* OriginMockApp.swift */; };
 		F4DD1218280D988D0090E163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1217280D988D0090E163 /* ContentView.swift */; };
 		F4DD121A280D98910090E163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD1219280D98910090E163 /* Assets.xcassets */; };
@@ -54,6 +64,16 @@
 		B617B03D68002D2A72E06905 /* Pods_OriginMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38D026D11E8900C7F93334A /* Pods-OriginMock-OriginMockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMock-OriginMockUITests.release.xcconfig"; path = "Target Support Files/Pods-OriginMock-OriginMockUITests/Pods-OriginMock-OriginMockUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E0548EFD4F6B5A3215457B7D /* Pods-OriginMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginMock.debug.xcconfig"; path = "Target Support Files/Pods-OriginMock/Pods-OriginMock.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B438CD2811AC550011B52C /* HomeStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatusView.swift; sourceTree = "<group>"; };
+		F4B438D02811ACA00011B52C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F4B438D32811ADFA0011B52C /* ViewControllerHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHolder.swift; sourceTree = "<group>"; };
+		F4B438D62811AE920011B52C /* MyPageDissmissNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageDissmissNotification.swift; sourceTree = "<group>"; };
+		F4B438D82811AF1A0011B52C /* AsyncImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloader.swift; sourceTree = "<group>"; };
+		F4B438DE2811B1D80011B52C /* MyPageTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTopView.swift; sourceTree = "<group>"; };
+		F4B438E12811B2C00011B52C /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		F4B438E42811B41F0011B52C /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		F4B438EA2811B5540011B52C /* TopRoutingUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoutingUseCaseImpl.swift; sourceTree = "<group>"; };
+		F4B438ED2811B7680011B52C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		F4DD1212280D988D0090E163 /* OriginMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD1215280D988D0090E163 /* OriginMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMockApp.swift; sourceTree = "<group>"; };
 		F4DD1217280D988D0090E163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +145,119 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F4B438CB2811AC070011B52C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438CC2811AC150011B52C /* Component */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F4B438CC2811AC150011B52C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438CD2811AC550011B52C /* HomeStatusView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F4B438CF2811AC920011B52C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438D02811ACA00011B52C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F4B438D22811ADEA0011B52C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438D32811ADFA0011B52C /* ViewControllerHolder.swift */,
+				F4B438D82811AF1A0011B52C /* AsyncImageDownloader.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4B438D52811AE750011B52C /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438D62811AE920011B52C /* MyPageDissmissNotification.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		F4B438DA2811B13F0011B52C /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438DB2811B1780011B52C /* Component */,
+				F4B438DE2811B1D80011B52C /* MyPageTopView.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		F4B438DB2811B1780011B52C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F4B438E02811B2980011B52C /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438E12811B2C00011B52C /* TabBarViewModel.swift */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
+		F4B438E32811B40A0011B52C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438E42811B41F0011B52C /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F4B438E62811B4B50011B52C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438E72811B4D00011B52C /* Application */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F4B438E72811B4D00011B52C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438E82811B5000011B52C /* UseCases */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F4B438E82811B5000011B52C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438E92811B53C0011B52C /* Routing */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		F4B438E92811B53C0011B52C /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438EA2811B5540011B52C /* TopRoutingUseCaseImpl.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		F4B438EC2811B7330011B52C /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				F4B438ED2811B7680011B52C /* RootView.swift */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
 		F4DD1209280D988C0090E163 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +285,7 @@
 			children = (
 				F4DD124D280DB4DC0090E163 /* Resources */,
 				F4DD1250280DB8650090E163 /* Utils */,
+				F4B438E62811B4B50011B52C /* Domain */,
 				F4DD1255280DBE470090E163 /* Manager */,
 				F4DD1244280DAC130090E163 /* Presentation */,
 				F4DD1215280D988D0090E163 /* OriginMockApp.swift */,
@@ -193,6 +327,7 @@
 			children = (
 				F4DD1245280DAC1E0090E163 /* ViewModels */,
 				F4DD1246280DAC270090E163 /* Views */,
+				F4B438EC2811B7330011B52C /* RootView */,
 				F4DD124A280DB34A0090E163 /* Routing */,
 			);
 			path = Presentation;
@@ -201,6 +336,9 @@
 		F4DD1245280DAC1E0090E163 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F4B438E32811B40A0011B52C /* Splash */,
+				F4B438CF2811AC920011B52C /* Home */,
+				F4B438E02811B2980011B52C /* RootView */,
 				F4DD125A280DBFA90090E163 /* Routing */,
 			);
 			path = ViewModels;
@@ -209,9 +347,11 @@
 		F4DD1246280DAC270090E163 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F4B438D22811ADEA0011B52C /* Common */,
 				F4DD1247280DB25A0090E163 /* Splash */,
 				F4DD1248280DB2750090E163 /* Onboarding */,
-				F4DD1249280DB2830090E163 /* Home */,
+				F4B438CB2811AC070011B52C /* Home */,
+				F4B438DA2811B13F0011B52C /* Mypage */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,13 +369,6 @@
 			children = (
 			);
 			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		F4DD1249280DB2830090E163 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		F4DD124A280DB34A0090E163 /* Routing */ = {
@@ -259,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				F4DD1251280DB87E0090E163 /* Extensions */,
+				F4B438D52811AE750011B52C /* Notifications */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -298,6 +432,7 @@
 				F4DD120E280D988D0090E163 /* Sources */,
 				F4DD120F280D988D0090E163 /* Frameworks */,
 				F4DD1210280D988D0090E163 /* Resources */,
+				67DC619B3729C080825FD90D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,6 +470,7 @@
 				F4DD122D280D98920090E163 /* Sources */,
 				F4DD122E280D98920090E163 /* Frameworks */,
 				F4DD122F280D98920090E163 /* Resources */,
+				01AF97B9491EAC227C2BAED9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -417,6 +553,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		01AF97B9491EAC227C2BAED9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriginMock-OriginMockUITests/Pods-OriginMock-OriginMockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriginMock-OriginMockUITests/Pods-OriginMock-OriginMockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OriginMock-OriginMockUITests/Pods-OriginMock-OriginMockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1F1FDAA9EB09DFD079BB5D5D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,6 +614,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		67DC619B3729C080825FD90D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriginMock/Pods-OriginMock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriginMock/Pods-OriginMock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OriginMock/Pods-OriginMock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BF4FC717FA4B2A4343CB1EE5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -491,13 +661,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DD1257280DBE7B0090E163 /* RoutingManager.swift in Sources */,
+				F4B438D12811ACA00011B52C /* HomeViewModel.swift in Sources */,
+				F4B438D42811ADFA0011B52C /* ViewControllerHolder.swift in Sources */,
+				F4B438D72811AE920011B52C /* MyPageDissmissNotification.swift in Sources */,
 				F4DD121F280D98910090E163 /* Persistence.swift in Sources */,
+				F4B438EE2811B7680011B52C /* RootView.swift in Sources */,
 				F4DD1222280D98910090E163 /* OriginMock.xcdatamodeld in Sources */,
+				F4B438CE2811AC550011B52C /* HomeStatusView.swift in Sources */,
+				F4B438D92811AF1A0011B52C /* AsyncImageDownloader.swift in Sources */,
+				F4B438E22811B2C00011B52C /* TabBarViewModel.swift in Sources */,
 				F4DD1218280D988D0090E163 /* ContentView.swift in Sources */,
 				F4DD125C280DBFC10090E163 /* RoutingViewModel.swift in Sources */,
+				F4B438E52811B41F0011B52C /* SplashViewModel.swift in Sources */,
+				F4B438EB2811B5540011B52C /* TopRoutingUseCaseImpl.swift in Sources */,
 				F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */,
 				F4DD124C280DB37E0090E163 /* SplashView.swift in Sources */,
 				F4DD1253280DB89D0090E163 /* Color.swift in Sources */,
+				F4B438DF2811B1D80011B52C /* MyPageTopView.swift in Sources */,
 				F4DD1259280DBEF00090E163 /* RoutingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

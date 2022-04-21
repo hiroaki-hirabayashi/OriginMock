@@ -7,6 +7,8 @@ target 'OriginMock' do
 
   # Pods for OriginMock
 
+  pod 'SDWebImageSwiftUI'
+
   target 'OriginMockTests' do
     inherit! :search_paths
     # Pods for testing

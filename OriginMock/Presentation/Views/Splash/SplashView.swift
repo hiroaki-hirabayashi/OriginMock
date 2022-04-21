@@ -9,6 +9,7 @@ import SwiftUI
 
 /// スプラッシュ画面 LanchScreenでも良いかも
 struct SplashView: View {
+    @StateObject var viewModel = SplashViewModel()
     var body: some View {
         ZStack {
             // hex color E3324F / ED9764
@@ -25,6 +26,12 @@ struct SplashView: View {
                     .frame(width: 200, height: 200, alignment: .center)
                     .clipShape(Circle())
                     .shadow(radius: 20)
+            }
+        }
+        .onAppear {
+            // TODO: 固定待つ？lanchscreenは？
+            DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+                self.viewModel.setRouting()
             }
         }
     }
