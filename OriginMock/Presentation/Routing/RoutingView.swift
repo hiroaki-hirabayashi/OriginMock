@@ -16,8 +16,8 @@ struct RoutingView: View {
         switch viewModel.state {
         case .splash:
             SplashView().transition(viewModel.transition)
-//        case .home:
-//            MainView().transition(viewModel.transition)
+        case .home:
+            RootView().transition(viewModel.transition)
 //        case .login:
 //            LoginView().transition(viewModel.transition)
 //        case .serviceIntroduction:
