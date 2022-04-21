@@ -1,2 +1,2 @@
 # OriginMock
-SwiftUI よくあるアプリ風のモック
+- SwiftUI よくあるアプリ風のモック
