@@ -12,7 +12,7 @@ final class TabBarViewModel: ObservableObject {
     static let shared = TabBarViewModel()
 
     @Published var selectedContent = RoutingContentName.home
-    @Published var selectedTabNumber: Int = 0
+    @Published var selectedTabNumber = 0
 
     /// 外部からはインスタンス化しない
     private init() {}
