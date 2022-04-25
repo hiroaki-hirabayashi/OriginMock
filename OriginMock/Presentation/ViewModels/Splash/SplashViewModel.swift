@@ -10,7 +10,7 @@ import Foundation
 final class SplashViewModel: ObservableObject {
     // MARK: - property
     private let routingManager = RoutingManager.shared
-    private let routingUseCase = TopRoutingUseCaseImpl()
+    private let routingUseCase = RoutingUseCaseImpl()
 //    private let pushNotificationPermissionUseCase = DIContainer.shared.getPushNotificationPermissionUseCase()
 
     /// 初回ユーザーの仮遷移フラグ
@@ -29,7 +29,7 @@ final class SplashViewModel: ObservableObject {
         /// 使用する場合は、setRoutingでルーティングする代わりに呼び出してください
         func forceRouting() {
             var routing: RoutingManager.RoutingState
-//             routing = .serviceIntroduction
+             routing = .serviceIntroduction
 //             routing = .loginIntroduction  // ログイン前
 //             routing = .onboarding // オンボーディング
 //             routing = .newMemberRegist // 新規登録
@@ -38,7 +38,7 @@ final class SplashViewModel: ObservableObject {
 //             routing = .passwordReminder // パスワード再設定
 //             routing = .login() // ログイン画面
 
-//            routingManager.setRoutingState(routing)
+            routingManager.setRoutingState(routing)
         }
     #endif
 }

@@ -26,8 +26,8 @@ public class RoutingManager {
 //        ///
 //        /// - next: 指定のある場合は、ログイン後のルーティング
 //        case login(next: String? = nil)
-//        // ログイン前
-//        case serviceIntroduction
+        // ログイン前
+        case serviceIntroduction
 //        // オンボーディング(コンテンツ紹介)
 //        case onboarding
 //        // 新規会員登録
