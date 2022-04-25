@@ -8,7 +8,7 @@
 import Foundation
 
 protocol RoutingUseCase {
-    // TODO: TopRoutingManager.TopRoutingState を返す
+    // TODO: RoutingManager.RoutingState を返す
     // 外から受信したリンクのルーティングを取得する
     func getRoutingStateLink(link: String) -> RoutingManager.RoutingState
 
@@ -33,7 +33,7 @@ protocol RoutingUseCase {
     func getRougingStateAfterContentsIntroduction() -> RoutingManager.RoutingState
 }
 
-final class TopRoutingUseCaseImpl: RoutingUseCase {
+final class RoutingUseCaseImpl: RoutingUseCase {
 //    private let onbordingUserDefaultsRepository: OnbordingUserDefaultsRepository
 //    private let sessionKeychainRepository: SessionKeychainRepository
 //
@@ -66,11 +66,14 @@ final class TopRoutingUseCaseImpl: RoutingUseCase {
         // オンボーディングの進捗による分岐
 //        let onbordingProgress = onbordingUserDefaultsRepository.getOnbodingProgress()
 //        if !onbordingProgress.completeServiceIntroduction
-//            // || !onbordingProgress.completeContentIntroduction // なくなる想定
+//             || !onbordingProgress.completeContentIntroduction // なくなる想定
 //            || !onbordingProgress.completeCounseling
 //        {
 //            return .serviceIntroduction
 //        }
+        if true {
+            return .serviceIntroduction
+        }
         // ホーム画面紹介と歩数取得許可要求は .homeLoadingから遷移しなくても表示される
         // else if !onbordingProgress.completeHomeIntroduction { }
 

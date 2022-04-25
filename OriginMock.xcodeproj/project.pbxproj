@@ -18,13 +18,17 @@
 		F4B438DF2811B1D80011B52C /* MyPageTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438DE2811B1D80011B52C /* MyPageTopView.swift */; };
 		F4B438E22811B2C00011B52C /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438E12811B2C00011B52C /* TabBarViewModel.swift */; };
 		F4B438E52811B41F0011B52C /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438E42811B41F0011B52C /* SplashViewModel.swift */; };
-		F4B438EB2811B5540011B52C /* TopRoutingUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438EA2811B5540011B52C /* TopRoutingUseCaseImpl.swift */; };
+		F4B438EB2811B5540011B52C /* RoutingUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438EA2811B5540011B52C /* RoutingUseCaseImpl.swift */; };
 		F4B438EE2811B7680011B52C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438ED2811B7680011B52C /* RootView.swift */; };
 		F4B438F02816D6D90011B52C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438EF2816D6D90011B52C /* TabBarView.swift */; };
 		F4B438F32816D79F0011B52C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438F22816D79F0011B52C /* HomeView.swift */; };
 		F4B438F62816D7CF0011B52C /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438F52816D7CF0011B52C /* FitnessView.swift */; };
 		F4B438FA2816D8990011B52C /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438F92816D8990011B52C /* HabitsView.swift */; };
 		F4B438FD2816D8CF0011B52C /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B438FC2816D8CF0011B52C /* ArticleView.swift */; };
+		F4B43903281708780011B52C /* ServiceIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43902281708780011B52C /* ServiceIntroductionView.swift */; };
+		F4B4390728170E700011B52C /* OnbordingUserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4390628170E700011B52C /* OnbordingUserDefaultsRepository.swift */; };
+		F4B4390C28170FF50011B52C /* OnbodingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4390B28170FF50011B52C /* OnbodingProgress.swift */; };
+		F4B4390E2817141F0011B52C /* SessionKeychainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4390D2817141F0011B52C /* SessionKeychainRepository.swift */; };
 		F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1215280D988D0090E163 /* OriginMockApp.swift */; };
 		F4DD1218280D988D0090E163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1217280D988D0090E163 /* ContentView.swift */; };
 		F4DD121A280D98910090E163 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD1219280D98910090E163 /* ImageAssets.xcassets */; };
@@ -77,13 +81,17 @@
 		F4B438DE2811B1D80011B52C /* MyPageTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTopView.swift; sourceTree = "<group>"; };
 		F4B438E12811B2C00011B52C /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		F4B438E42811B41F0011B52C /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
-		F4B438EA2811B5540011B52C /* TopRoutingUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoutingUseCaseImpl.swift; sourceTree = "<group>"; };
+		F4B438EA2811B5540011B52C /* RoutingUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingUseCaseImpl.swift; sourceTree = "<group>"; };
 		F4B438ED2811B7680011B52C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		F4B438EF2816D6D90011B52C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		F4B438F22816D79F0011B52C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F4B438F52816D7CF0011B52C /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
 		F4B438F92816D8990011B52C /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
 		F4B438FC2816D8CF0011B52C /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		F4B43902281708780011B52C /* ServiceIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceIntroductionView.swift; sourceTree = "<group>"; };
+		F4B4390628170E700011B52C /* OnbordingUserDefaultsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingUserDefaultsRepository.swift; sourceTree = "<group>"; };
+		F4B4390B28170FF50011B52C /* OnbodingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbodingProgress.swift; sourceTree = "<group>"; };
+		F4B4390D2817141F0011B52C /* SessionKeychainRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionKeychainRepository.swift; sourceTree = "<group>"; };
 		F4DD1212280D988D0090E163 /* OriginMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD1215280D988D0090E163 /* OriginMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMockApp.swift; sourceTree = "<group>"; };
 		F4DD1217280D988D0090E163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -233,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				F4B438E72811B4D00011B52C /* Application */,
+				F4B4390428170E310011B52C /* DomainModel */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -256,7 +265,7 @@
 		F4B438E92811B53C0011B52C /* Routing */ = {
 			isa = PBXGroup;
 			children = (
-				F4B438EA2811B5540011B52C /* TopRoutingUseCaseImpl.swift */,
+				F4B438EA2811B5540011B52C /* RoutingUseCaseImpl.swift */,
 			);
 			path = Routing;
 			sourceTree = "<group>";
@@ -285,7 +294,7 @@
 			path = Fitness;
 			sourceTree = "<group>";
 		};
-		F4B438F72816D8050011B52C /* content */ = {
+		F4B438F72816D8050011B52C /* Content */ = {
 			isa = PBXGroup;
 			children = (
 				F4B438CB2811AC070011B52C /* Home */,
@@ -293,7 +302,7 @@
 				F4B438F82816D8660011B52C /* Habits */,
 				F4B438FB2816D8AB0011B52C /* Article */,
 			);
-			path = content;
+			path = Content;
 			sourceTree = "<group>";
 		};
 		F4B438F82816D8660011B52C /* Habits */ = {
@@ -334,6 +343,56 @@
 				F4B438FC2816D8CF0011B52C /* ArticleView.swift */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		F4B43901281708600011B52C /* ServiceIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				F4B43902281708780011B52C /* ServiceIntroductionView.swift */,
+			);
+			name = ServiceIntroduction;
+			sourceTree = "<group>";
+		};
+		F4B4390428170E310011B52C /* DomainModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4390828170FA90011B52C /* Repositories */,
+				F4B4390928170FB80011B52C /* Models */,
+			);
+			path = DomainModel;
+			sourceTree = "<group>";
+		};
+		F4B4390528170E530011B52C /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4390628170E700011B52C /* OnbordingUserDefaultsRepository.swift */,
+				F4B4390D2817141F0011B52C /* SessionKeychainRepository.swift */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
+		F4B4390828170FA90011B52C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4390528170E530011B52C /* Onbording */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		F4B4390928170FB80011B52C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4390A28170FD10011B52C /* Onbording */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F4B4390A28170FD10011B52C /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4390B28170FF50011B52C /* OnbodingProgress.swift */,
+			);
+			name = Onbording;
 			sourceTree = "<group>";
 		};
 		F4DD1209280D988C0090E163 = {
@@ -429,7 +488,7 @@
 				F4DD1247280DB25A0090E163 /* Splash */,
 				F4DD1248280DB2750090E163 /* Onboarding */,
 				F4B438DA2811B13F0011B52C /* Mypage */,
-				F4B438F72816D8050011B52C /* content */,
+				F4B438F72816D8050011B52C /* Content */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -445,6 +504,7 @@
 		F4DD1248280DB2750090E163 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				F4B43901281708600011B52C /* ServiceIntroduction */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -752,11 +812,15 @@
 				F4DD1218280D988D0090E163 /* ContentView.swift in Sources */,
 				F4DD125C280DBFC10090E163 /* RoutingViewModel.swift in Sources */,
 				F4B438E52811B41F0011B52C /* SplashViewModel.swift in Sources */,
-				F4B438EB2811B5540011B52C /* TopRoutingUseCaseImpl.swift in Sources */,
+				F4B4390728170E700011B52C /* OnbordingUserDefaultsRepository.swift in Sources */,
+				F4B4390E2817141F0011B52C /* SessionKeychainRepository.swift in Sources */,
+				F4B43903281708780011B52C /* ServiceIntroductionView.swift in Sources */,
+				F4B438EB2811B5540011B52C /* RoutingUseCaseImpl.swift in Sources */,
 				F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */,
 				F4B438F32816D79F0011B52C /* HomeView.swift in Sources */,
 				F4B438FA2816D8990011B52C /* HabitsView.swift in Sources */,
 				F4DD124C280DB37E0090E163 /* SplashView.swift in Sources */,
+				F4B4390C28170FF50011B52C /* OnbodingProgress.swift in Sources */,
 				F4B438F62816D7CF0011B52C /* FitnessView.swift in Sources */,
 				F4B438FD2816D8CF0011B52C /* ArticleView.swift in Sources */,
 				F4DD1253280DB89D0090E163 /* Color.swift in Sources */,

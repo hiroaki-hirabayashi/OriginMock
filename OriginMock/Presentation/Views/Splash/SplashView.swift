@@ -30,7 +30,7 @@ struct SplashView: View {
         }
         .onAppear {
             // TODO: 固定待つ？lanchscreenは？
-            DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                 self.viewModel.setRouting()
             }
         }

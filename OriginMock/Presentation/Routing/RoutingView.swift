@@ -20,8 +20,8 @@ struct RoutingView: View {
             RootView().transition(viewModel.transition)
 //        case .login:
 //            LoginView().transition(viewModel.transition)
-//        case .serviceIntroduction:
-//            ServiceIntroductionView().transition(viewModel.transition)
+        case .serviceIntroduction:
+            ServiceIntroductionView().transition(viewModel.transition)
 //        case .onboarding:
 //            ContentsIntroductionMainView().transition(viewModel.transition)
 //        case .newMemberRegist:
