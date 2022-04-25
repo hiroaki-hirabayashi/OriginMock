@@ -12,7 +12,7 @@ struct RootView: View {
     var body: some View {
         VStack(spacing: 0) {
             HomeStatusView(contentName: viewModel.selectedContent)
-//            TabBarView()
+            TabBarView()
         }
     }
 }
