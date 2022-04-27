@@ -29,6 +29,10 @@
 		F4B4390728170E700011B52C /* OnbordingUserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4390628170E700011B52C /* OnbordingUserDefaultsRepository.swift */; };
 		F4B4390C28170FF50011B52C /* OnbodingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4390B28170FF50011B52C /* OnbodingProgress.swift */; };
 		F4B4390E2817141F0011B52C /* SessionKeychainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4390D2817141F0011B52C /* SessionKeychainRepository.swift */; };
+		F4B439142819881C0011B52C /* ServiceIntroductionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B439132819881C0011B52C /* ServiceIntroductionViewModel.swift */; };
+		F4B4391828198A420011B52C /* ServiceIntroductionPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4391728198A420011B52C /* ServiceIntroductionPageModel.swift */; };
+		F4B4391B28198D2A0011B52C /* OnbordingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4391A28198D2A0011B52C /* OnbordingUseCase.swift */; };
+		F4B4391D28198D490011B52C /* OnbordingUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4391C28198D490011B52C /* OnbordingUseCaseImpl.swift */; };
 		F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1215280D988D0090E163 /* OriginMockApp.swift */; };
 		F4DD1218280D988D0090E163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1217280D988D0090E163 /* ContentView.swift */; };
 		F4DD121A280D98910090E163 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD1219280D98910090E163 /* ImageAssets.xcassets */; };
@@ -92,6 +96,10 @@
 		F4B4390628170E700011B52C /* OnbordingUserDefaultsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingUserDefaultsRepository.swift; sourceTree = "<group>"; };
 		F4B4390B28170FF50011B52C /* OnbodingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbodingProgress.swift; sourceTree = "<group>"; };
 		F4B4390D2817141F0011B52C /* SessionKeychainRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionKeychainRepository.swift; sourceTree = "<group>"; };
+		F4B439132819881C0011B52C /* ServiceIntroductionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceIntroductionViewModel.swift; sourceTree = "<group>"; };
+		F4B4391728198A420011B52C /* ServiceIntroductionPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceIntroductionPageModel.swift; sourceTree = "<group>"; };
+		F4B4391A28198D2A0011B52C /* OnbordingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingUseCase.swift; sourceTree = "<group>"; };
+		F4B4391C28198D490011B52C /* OnbordingUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingUseCaseImpl.swift; sourceTree = "<group>"; };
 		F4DD1212280D988D0090E163 /* OriginMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD1215280D988D0090E163 /* OriginMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMockApp.swift; sourceTree = "<group>"; };
 		F4DD1217280D988D0090E163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -257,6 +265,7 @@
 		F4B438E82811B5000011B52C /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				F4B4391928198D150011B52C /* Onbording */,
 				F4B438E92811B53C0011B52C /* Routing */,
 			);
 			path = UseCases;
@@ -395,6 +404,47 @@
 			name = Onbording;
 			sourceTree = "<group>";
 		};
+		F4B43911281987DF0011B52C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F4B43912281987FE0011B52C /* ServiceIntroduction */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F4B43912281987FE0011B52C /* ServiceIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				F4B439132819881C0011B52C /* ServiceIntroductionViewModel.swift */,
+			);
+			path = ServiceIntroduction;
+			sourceTree = "<group>";
+		};
+		F4B43915281988DB0011B52C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4B43916281989290011B52C /* ServiceIntroduction */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4B43916281989290011B52C /* ServiceIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4391728198A420011B52C /* ServiceIntroductionPageModel.swift */,
+			);
+			path = ServiceIntroduction;
+			sourceTree = "<group>";
+		};
+		F4B4391928198D150011B52C /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4391A28198D2A0011B52C /* OnbordingUseCase.swift */,
+				F4B4391C28198D490011B52C /* OnbordingUseCaseImpl.swift */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
 		F4DD1209280D988C0090E163 = {
 			isa = PBXGroup;
 			children = (
@@ -473,8 +523,10 @@
 		F4DD1245280DAC1E0090E163 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F4B43915281988DB0011B52C /* Models */,
 				F4B438E32811B40A0011B52C /* Splash */,
 				F4B438CF2811AC920011B52C /* Home */,
+				F4B43911281987DF0011B52C /* Onboarding */,
 				F4B438E02811B2980011B52C /* RootView */,
 				F4DD125A280DBFA90090E163 /* Routing */,
 			);
@@ -800,6 +852,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DD1257280DBE7B0090E163 /* RoutingManager.swift in Sources */,
+				F4B4391B28198D2A0011B52C /* OnbordingUseCase.swift in Sources */,
 				F4B438D12811ACA00011B52C /* HomeViewModel.swift in Sources */,
 				F4B438D42811ADFA0011B52C /* ViewControllerHolder.swift in Sources */,
 				F4B438D72811AE920011B52C /* MyPageDissmissNotification.swift in Sources */,
@@ -813,10 +866,13 @@
 				F4DD125C280DBFC10090E163 /* RoutingViewModel.swift in Sources */,
 				F4B438E52811B41F0011B52C /* SplashViewModel.swift in Sources */,
 				F4B4390728170E700011B52C /* OnbordingUserDefaultsRepository.swift in Sources */,
+				F4B4391828198A420011B52C /* ServiceIntroductionPageModel.swift in Sources */,
 				F4B4390E2817141F0011B52C /* SessionKeychainRepository.swift in Sources */,
 				F4B43903281708780011B52C /* ServiceIntroductionView.swift in Sources */,
+				F4B4391D28198D490011B52C /* OnbordingUseCaseImpl.swift in Sources */,
 				F4B438EB2811B5540011B52C /* RoutingUseCaseImpl.swift in Sources */,
 				F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */,
+				F4B439142819881C0011B52C /* ServiceIntroductionViewModel.swift in Sources */,
 				F4B438F32816D79F0011B52C /* HomeView.swift in Sources */,
 				F4B438FA2816D8990011B52C /* HabitsView.swift in Sources */,
 				F4DD124C280DB37E0090E163 /* SplashView.swift in Sources */,
