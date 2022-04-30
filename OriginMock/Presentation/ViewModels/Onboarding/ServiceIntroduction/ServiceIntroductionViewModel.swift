@@ -10,7 +10,7 @@ import SwiftUI
 // swiftlint:disable unused_closure_parameter
 class ServiceIntroductionViewModel: ObservableObject {
 //    private let appleNotificationUseCase = DIContainer.shared.getPushNotificationPermissionUseCase()
-    private let onbodingUseCase = OnbordingUseCaseImpl(onbordingUserDefaultsRepository: OnbordingUserDefaultsRepository.self as! OnbordingUserDefaultsRepository)/*DIContainer.shared.getOnbordingUseCase()*/
+//    private let onbodingUseCase = OnbordingUseCaseImpl(onbordingUserDefaultsRepository: OnbordingUserDefaultsRepository.self as! OnbordingUserDefaultsRepository)/*DIContainer.shared.getOnbordingUseCase()*/
 
     let lastPage = 3
     let notificationRequestPage = 2
