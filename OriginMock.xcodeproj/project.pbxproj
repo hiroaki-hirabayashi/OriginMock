@@ -33,6 +33,12 @@
 		F4B4391828198A420011B52C /* ServiceIntroductionPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4391728198A420011B52C /* ServiceIntroductionPageModel.swift */; };
 		F4B4391B28198D2A0011B52C /* OnbordingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4391A28198D2A0011B52C /* OnbordingUseCase.swift */; };
 		F4B4391D28198D490011B52C /* OnbordingUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4391C28198D490011B52C /* OnbordingUseCaseImpl.swift */; };
+		F4B43920281D57DD0011B52C /* ServiceIntroductionPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4391F281D57DC0011B52C /* ServiceIntroductionPageControlView.swift */; };
+		F4B43924281D5A0E0011B52C /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43923281D5A0E0011B52C /* WrappingHStack.swift */; };
+		F4B43926281D5A660011B52C /* InternalWrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43925281D5A660011B52C /* InternalWrappingHStack.swift */; };
+		F4B43928281D5A950011B52C /* NewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43927281D5A950011B52C /* NewLine.swift */; };
+		F4B4392A281D5B470011B52C /* PageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43929281D5B470011B52C /* PageIndicatorView.swift */; };
+		F4B4392D281D5BBC0011B52C /* DotIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4392C281D5BBC0011B52C /* DotIndicator.swift */; };
 		F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1215280D988D0090E163 /* OriginMockApp.swift */; };
 		F4DD1218280D988D0090E163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1217280D988D0090E163 /* ContentView.swift */; };
 		F4DD121A280D98910090E163 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD1219280D98910090E163 /* ImageAssets.xcassets */; };
@@ -100,6 +106,12 @@
 		F4B4391728198A420011B52C /* ServiceIntroductionPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceIntroductionPageModel.swift; sourceTree = "<group>"; };
 		F4B4391A28198D2A0011B52C /* OnbordingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingUseCase.swift; sourceTree = "<group>"; };
 		F4B4391C28198D490011B52C /* OnbordingUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingUseCaseImpl.swift; sourceTree = "<group>"; };
+		F4B4391F281D57DC0011B52C /* ServiceIntroductionPageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceIntroductionPageControlView.swift; sourceTree = "<group>"; };
+		F4B43923281D5A0E0011B52C /* WrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
+		F4B43925281D5A660011B52C /* InternalWrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalWrappingHStack.swift; sourceTree = "<group>"; };
+		F4B43927281D5A950011B52C /* NewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLine.swift; sourceTree = "<group>"; };
+		F4B43929281D5B470011B52C /* PageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicatorView.swift; sourceTree = "<group>"; };
+		F4B4392C281D5BBC0011B52C /* DotIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotIndicator.swift; sourceTree = "<group>"; };
 		F4DD1212280D988D0090E163 /* OriginMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD1215280D988D0090E163 /* OriginMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMockApp.swift; sourceTree = "<group>"; };
 		F4DD1217280D988D0090E163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -358,6 +370,7 @@
 			isa = PBXGroup;
 			children = (
 				F4B43902281708780011B52C /* ServiceIntroductionView.swift */,
+				F4B4391E281D57BD0011B52C /* Components */,
 			);
 			name = ServiceIntroduction;
 			sourceTree = "<group>";
@@ -445,6 +458,34 @@
 			path = Onbording;
 			sourceTree = "<group>";
 		};
+		F4B4391E281D57BD0011B52C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4391F281D57DC0011B52C /* ServiceIntroductionPageControlView.swift */,
+				F4B43929281D5B470011B52C /* PageIndicatorView.swift */,
+				F4B4392C281D5BBC0011B52C /* DotIndicator.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		F4B43921281D59D30011B52C /* ExternalLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F4B43922281D59F40011B52C /* WrappingHStack */,
+			);
+			path = ExternalLibrary;
+			sourceTree = "<group>";
+		};
+		F4B43922281D59F40011B52C /* WrappingHStack */ = {
+			isa = PBXGroup;
+			children = (
+				F4B43923281D5A0E0011B52C /* WrappingHStack.swift */,
+				F4B43925281D5A660011B52C /* InternalWrappingHStack.swift */,
+				F4B43927281D5A950011B52C /* NewLine.swift */,
+			);
+			path = WrappingHStack;
+			sourceTree = "<group>";
+		};
 		F4DD1209280D988C0090E163 = {
 			isa = PBXGroup;
 			children = (
@@ -470,6 +511,7 @@
 		F4DD1214280D988D0090E163 /* OriginMock */ = {
 			isa = PBXGroup;
 			children = (
+				F4B43921281D59D30011B52C /* ExternalLibrary */,
 				F4DD124D280DB4DC0090E163 /* Resources */,
 				F4DD1250280DB8650090E163 /* Utils */,
 				F4B438E62811B4B50011B52C /* Domain */,
@@ -858,6 +900,7 @@
 				F4B438D72811AE920011B52C /* MyPageDissmissNotification.swift in Sources */,
 				F4DD121F280D98910090E163 /* Persistence.swift in Sources */,
 				F4B438EE2811B7680011B52C /* RootView.swift in Sources */,
+				F4B43926281D5A660011B52C /* InternalWrappingHStack.swift in Sources */,
 				F4DD1222280D98910090E163 /* OriginMock.xcdatamodeld in Sources */,
 				F4B438CE2811AC550011B52C /* HomeStatusView.swift in Sources */,
 				F4B438D92811AF1A0011B52C /* AsyncImageDownloader.swift in Sources */,
@@ -865,12 +908,17 @@
 				F4DD1218280D988D0090E163 /* ContentView.swift in Sources */,
 				F4DD125C280DBFC10090E163 /* RoutingViewModel.swift in Sources */,
 				F4B438E52811B41F0011B52C /* SplashViewModel.swift in Sources */,
+				F4B4392D281D5BBC0011B52C /* DotIndicator.swift in Sources */,
 				F4B4390728170E700011B52C /* OnbordingUserDefaultsRepository.swift in Sources */,
+				F4B4392A281D5B470011B52C /* PageIndicatorView.swift in Sources */,
 				F4B4391828198A420011B52C /* ServiceIntroductionPageModel.swift in Sources */,
 				F4B4390E2817141F0011B52C /* SessionKeychainRepository.swift in Sources */,
 				F4B43903281708780011B52C /* ServiceIntroductionView.swift in Sources */,
 				F4B4391D28198D490011B52C /* OnbordingUseCaseImpl.swift in Sources */,
 				F4B438EB2811B5540011B52C /* RoutingUseCaseImpl.swift in Sources */,
+				F4B43920281D57DD0011B52C /* ServiceIntroductionPageControlView.swift in Sources */,
+				F4B43928281D5A950011B52C /* NewLine.swift in Sources */,
+				F4B43924281D5A0E0011B52C /* WrappingHStack.swift in Sources */,
 				F4DD1216280D988D0090E163 /* OriginMockApp.swift in Sources */,
 				F4B439142819881C0011B52C /* ServiceIntroductionViewModel.swift in Sources */,
 				F4B438F32816D79F0011B52C /* HomeView.swift in Sources */,
