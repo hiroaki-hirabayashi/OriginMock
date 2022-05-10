@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-// MARK: - Page Indicator -
 struct PageIndicatorView: View {
     // Constants
     private let spacing: CGFloat = 10
@@ -36,7 +35,8 @@ struct PageIndicatorView: View {
                 }
             }
             .animation(self.animate ? .spring() : nil)
-        }.onAppear {
+        }
+        .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 self.animate = true
             }
