@@ -15,7 +15,7 @@ class ServiceIntroductionViewModel: ObservableObject {
     let notificationRequestPage = 2
     @Published var page: Int = 0
 
-    var pageModeles: [ServiceIntroductionPageModel] = [ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page1", text: "ようこそ、コマドヘ！\nすこやかな毎日を楽しむための健康生活アプリです。", buttonName: "次へ"), ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page2", text: "フィットネスや趣味のコラム、小さな健康習慣づくりまで。必要なのは、このアプリ一つだけです！", buttonName: "次へ"), ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page3", text: "歩数の目標達成や\n大切なお知らせをお届けします！通知設定はオンにしましょう。", buttonName: "設定する"), ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page4", text: "小さな一歩でも、大丈夫。\nあなたの毎日に寄り添っていきます。さあ、一緒に始めましょう！", buttonName: "はじめる")]
+    var pageModeles: [ServiceIntroductionPageModel] = [ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page1", text: "ようこそ！\nすこやかな毎日を楽しむための健康生活アプリです。", buttonName: "次へ"), ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page2", text: "フィットネスや趣味のコラム、小さな健康習慣づくりまで。必要なのは、このアプリ一つだけです！", buttonName: "次へ"), ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page3", text: "歩数の目標達成や\n大切なお知らせをお届けします！通知設定はオンにしましょう。", buttonName: "設定する"), ServiceIntroductionPageModel(backgroundImageName: "ServiceIntroduction_page4", text: "小さな一歩でも、大丈夫。\nあなたの毎日に寄り添っていきます。さあ、一緒に始めましょう！", buttonName: "はじめる")]
 
     func nextPage() {
         self.page += 1
